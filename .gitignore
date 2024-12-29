@@ -1,0 +1,21 @@
+# Ignorar o arquivo .env que contém variáveis sensíveis
+.env
+
+# Ignorar diretórios específicos de ambiente virtual
+venv/
+env/
+
+# Ignorar arquivos de compilação do Python
+*.pyc
+__pycache__/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração do IDE (ex: VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar pastas do sistema
+.DS_Store  # Para macOS
+Thumbs.db  # Para Windows
